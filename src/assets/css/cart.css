@@ -1,0 +1,121 @@
+/* Table Styles */
+.table {
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.table thead th {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #6c757d;
+  background-color: #e9ecef;
+  border: none;
+  padding: 1rem;
+}
+
+.table tbody tr {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.25rem);
+}
+
+.table tbody td {
+  background-color: #fff;
+  border: none;
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+/* Quantity Buttons */
+.quantity-btn {
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 50%;
+  color: #6c757d;
+  font-size: 1rem;
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quantity-btn:hover {
+  background-color: #ced4da;
+  color: #343a40;
+}
+
+.quantity-value {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0.5rem;
+}
+
+/* Remove Button */
+.remove-btn {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}
+
+/* Total */
+.total {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* Buttons */
+.btn-checkout,
+.btn-clear {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.btn-checkout {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.btn-checkout:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-clear {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+.btn-clear:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}

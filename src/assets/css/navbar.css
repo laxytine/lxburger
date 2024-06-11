@@ -1,0 +1,36 @@
+.pad {
+  padding: 3 !important;
+  background-color: black !important;
+}
+
+.pad {
+  padding: 1rem 0;
+}
+
+.pad .nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.pad .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffd700;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.pad .nav-link:hover {
+  color: #ffd700;
+}
+.pad .nav-link:hover::before {
+  visibility: visible;
+  width: 100%;
+}

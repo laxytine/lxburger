@@ -1,0 +1,8 @@
+.search-input-container {
+  width: 100%; /* Set width to 60% */
+  padding-left: 21vw;
+}
+
+.search-input {
+  width: 100%; /* Make input field occupy 100% of its parent width */
+}

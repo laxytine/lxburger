@@ -1,0 +1,9 @@
+.bg {
+  background-image: url(".././images/products-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.spinner-border.text-white {
+  color: white;
+}
