@@ -68,7 +68,7 @@ export default function Login() {
           className=" d-flex justify-content-center align-items-center"
         >
           <img
-            src="https://postimage.me/images/2024/06/04/burgerlogin19810e90a880a6f1.gif"
+            src="https://postimage.me/images/2024/06/10/burgerlogin.gif"
             alt="login"
             className="img-fluid rounded-circle"
           />
